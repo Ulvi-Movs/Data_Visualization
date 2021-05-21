@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 21 11:36:29 2021
+
+@author: ULVI PC
+"""
+
+import pygal
+from die import Die
+
+die_1 = Die()
+die_2 = Die()
+results = []
+for roll_num in range(1000):
+    result = die_1.roll() + die_2.roll()
+    results.append(result)
+frequencies = []
+max_result = die_1.num_sides + die_2.num_sides
+for value in range(2, max_result+1):
+    frequency = results.count(value)
+    frequencies.append(frequency)
+
+hist = pygal.Bar()
+hist.title = "Result of rolling two D6 1000 times."
+hist.x_labels = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+hist.x_title = "Result"
+hist.y_title = "Frequency of Result"
+hist.add("D6 + D6", frequencies)
+hist.render_to_file("dice_visual.svg")
+
+print(frequencies)
