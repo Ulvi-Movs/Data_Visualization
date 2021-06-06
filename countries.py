@@ -2,7 +2,7 @@
 """
 Created on Thu May 27 13:30:12 2021
 
-@author: ULVI PC
+@author: ULVI P
 """
 
 from pygal_maps_world.maps import COUNTRIES
