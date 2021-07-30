@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri May 21 11:33:07
+Created on Fri May 21 11:33:
 
 @author: ULVI PC
 """
