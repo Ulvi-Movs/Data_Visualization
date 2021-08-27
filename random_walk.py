@@ -2,7 +2,7 @@
 """
 Created on Fri May 21 
 
-@author: ULVI PC
+@author: ULVI P
 """
 from random import choice
 
