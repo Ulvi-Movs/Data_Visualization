@@ -2,7 +2,7 @@
 """
 Created on Fri May 
 
-@author: ULVI PC
+@author: ULVI 
 """
 
 import pygal
