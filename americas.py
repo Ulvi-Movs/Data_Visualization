@@ -2,7 +2,7 @@
 """
 Created on Th
 
-@author: ULVI PC
+@author: ULVI 
 """
 import pygal_maps_world.maps
 
