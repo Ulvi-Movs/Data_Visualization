@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Th
+Created on T
 
 @author: ULVI 
 """
